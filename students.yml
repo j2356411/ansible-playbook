@@ -1,0 +1,15 @@
+---
+- student: 
+  - name: sudhee
+    phono: 23455
+    address: 
+     - doorno: 456
+     - street: somji
+     - pincode: 345678
+
+  - name: als
+    phono: 564555
+    address: 
+     - doorno: 456
+     - street: somji
+     - pincode: 345678
