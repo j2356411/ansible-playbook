@@ -17,3 +17,6 @@
 
 [myRedHatservers]
 172.31.22.248
+
+
+[myWebservers:vars]
