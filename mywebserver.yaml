@@ -4,7 +4,7 @@
   tasks:
    - name: i want to install webserver on ubunt
      apt:
-      name: "{{mywebpackredhat}}"
+      name: "{{mywebpackubuntu}}"
       state: present
      when: ansible_os_family== "Debian"
    - name: i want o start webserver on ubuntu
