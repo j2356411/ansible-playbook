@@ -20,7 +20,7 @@
      when:  ansible_os_family== "RedHat"
 
    - name: i want to install webserver on redhat liux
-     yum:
+     service:
       name: httpd
       state: started
      when:  ansible_os_family== "RedHat"  
