@@ -21,6 +21,6 @@
 
    - name: i want to install webserver on redhat liux
      service:
-      name: "{{mywebpackredhiat}}"
+      name: "{{mywebpackredhat}}"
       state: started
      when:  ansible_os_family== "RedHat"  
