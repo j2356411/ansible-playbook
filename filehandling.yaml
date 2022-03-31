@@ -2,7 +2,5 @@
 - hosts: 172.31.32.145
   become: yes
   tasks:
-   - name: i want to create file
-     file:
-      path: /home/ubuntu/mytestfile
-      state: touch
+  - include_tasks: files.yaml
+   
