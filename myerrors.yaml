@@ -11,6 +11,7 @@
      apt:
       name: tree
       steeeeeeeeeee: present
+     ignore_errors: true 
      tags: mytree 
    - name: install wget   
      apt:
