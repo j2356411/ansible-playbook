@@ -12,3 +12,9 @@
    - name: install wget
      apt: 
       name: "{{myvar3}}"
+   - name: i want to see the debug   
+     debug:
+       msg: "{{myvar3}}"  
+   - name: i want to see the debug2   
+     debug:
+       msg: "{{myvar1}}"
