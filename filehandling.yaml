@@ -1,5 +1,5 @@
 ---
-- hosts: myWebservers
+- hosts: 172.31.32.145
   become: yes
   tasks:
    - name: i want to create file
